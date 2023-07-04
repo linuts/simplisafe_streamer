@@ -1,5 +1,5 @@
 {
-  "domain": "simplisafe_Streamer",
+  "domain": "simplistreamer",
   "name": "SimpliSafe Streamer",
   "codeowners": ["@linuts"],
   "config_flow": true,
