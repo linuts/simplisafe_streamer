@@ -15,7 +15,7 @@ from homeassistant.const import UnitOfTemperature
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
-from . import SimpliSafe, SimpliSafeEntity
+from .. import SimpliSafe, SimpliSafeEntity
 from .const import DOMAIN, LOGGER
 
 

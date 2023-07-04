@@ -14,7 +14,7 @@ from homeassistant.const import EntityCategory
 from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 
-from . import SimpliSafe, SimpliSafeEntity
+from .. import SimpliSafe, SimpliSafeEntity
 from .const import DOMAIN, LOGGER
 
 SUPPORTED_BATTERY_SENSOR_TYPES = [

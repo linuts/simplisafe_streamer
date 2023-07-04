@@ -15,7 +15,7 @@ from homeassistant.const import (
 )
 from homeassistant.core import HomeAssistant
 
-from . import SimpliSafe
+from .. import SimpliSafe
 from .const import DOMAIN
 
 CONF_CREDIT_CARD = "creditCard"
