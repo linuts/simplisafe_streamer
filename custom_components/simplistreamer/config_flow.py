@@ -1,7 +1,7 @@
 import voluptuous as vol
 from homeassistant import config_entries
 from homeassistant.core import callback
-from .const import DOMAIN  # assuming you've defined your DOMAIN in a `const.py` file.
+from .const import DOMAIN
 
 class SimpliStreamerFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
     VERSION = 1
